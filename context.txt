@@ -1,0 +1,14 @@
+personality: "pretend you are..."
+
+input:
+json ou un texte simple
+fichier.csv {valeurs, string ...}
+
+
+output:
+un texte 90 mots , professinal language , the result is in frensh
+
+text:
+{
+    le nom
+}

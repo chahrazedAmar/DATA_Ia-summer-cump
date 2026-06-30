@@ -1,0 +1,11 @@
+Finding 1:
+The saddest year in music history was 1921, with an average valence of 0.379 — nearly 45% below the dataset's overall average of 0.532. Among modern years, 2017 holds the record as the saddest, with a valence of 0.416. The happiest years on record were the early 1920s: 1924 peaked at 0.664. Music has been getting sadder for almost a century.
+
+Finding 2:
+The 2010s were the saddest decade ever recorded — average valence of 0.456, a 16% drop from the 1920s (0.542). What makes this remarkable is that it happened while energy was rising: music got louder and more intense, yet emotionally darker at the same time.
+
+Finding 3:
+Music energy increased 172% between 1921 (0.232) and 2020 (0.631), peaking in 2010 at 0.682. Songs today are nearly three times as intense as they were 100 years ago — but that extra intensity didn't bring more happiness. It brought aggression without joy.
+
+Finding 4:
+The most intensely happy song in the entire dataset is "コズミック・サーフィン" (Cosmic Surfin') by Yellow Magic Orchestra (1979) — valence 0.962, energy 0.997. Pure euphoria. The saddest real song (excluding silent tracks) is "The Bat Pt.2" by Pat Metheny Group (1982) — valence 0.032, energy 0.050. It sounds like the end of something.

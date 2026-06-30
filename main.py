@@ -6,6 +6,11 @@ from dotenv import load_dotenv
 import os
 load_dotenv()  # Load environment variables from .env file
 
+with open('context.txt', 'r') as f:
+    context = f.read()  # Read the content of context.txt into a variable
+
+    with open('remarques.txt' , 'r') as f:
+        remarques = f.read()  # Read the content of instruction.txt into a variable
 #cle API creer sur le site groq.ai
 
 API_KEY = os.getenv("API_KEY")  #  your actual API key
@@ -18,12 +23,12 @@ chat_completion = client.chat.completions.create(
         # how it should behave throughout the conversation.
         {
             "role": "system",  # personnalité
-            "content": "parle comme harrypotter."
+            "content": context,
         },
         # Set a user message for the assistant to respond to.
         {
             "role": "user",#utilisateur
-            "content": "give me a cake recipe in frensh",
+            "content": remarques,
         }
     ],
 
